@@ -41,5 +41,38 @@ button{
 }
 /* theme */
 header h1{
-    
+    line-height: 8.0rem;
+    text-align: center;
+}
+aside{
+    max-width: 90rem;
+    margin: 2rem auto;
+    background-color: #fff; /* derriere l'image */
+}
+aside img{
+    width: 100%;
+    padding: 1rem; /* pourtour de l'image */
+}
+main{
+    max-width: 120rem;
+    margin: 0 auto 2rem;
+}
+main section p{
+    background-color: #42414d;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+main section ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    background-color: #42414d;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+main section ul li img{
+    width: 100%;
+}
+main section.experiences-pro ul{
+    display: block;
 }
