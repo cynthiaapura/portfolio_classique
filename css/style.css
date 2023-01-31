@@ -40,9 +40,25 @@ button{
         font-size: inherit;
 }
 /* theme */
+@font-face {
+    font-family: '../font_main/icecreampartyregular';
+    src: url('../font_main/icecreamparty-webfont.woff2') format('woff2'),
+         url('../font_main/icecreamparty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 header h1{
+    font-size: 6rem;
+    font-family: 'spongefont_squaretyperegular';
     line-height: 8.0rem;
     text-align: center;
+    padding: .5rem;
+}
+header h1 .material-symbols-outlined{
+    font-size: inherit;
+    vertical-align: middle;
 }
 aside{
     max-width: 90rem;
@@ -56,6 +72,10 @@ aside img{
 main{
     max-width: 120rem;
     margin: 0 auto 2rem;
+}
+main h2{
+    font-family: '../font_main/icecreampartyregular';
+    color: coral;
 }
 main section p{
     background-color: #42414d;
@@ -75,4 +95,9 @@ main section ul li img{
 }
 main section.experiences-pro ul{
     display: block;
+}
+
+footer{
+    margin: 2rem;
+    text-align: center;
 }
